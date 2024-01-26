@@ -57,9 +57,10 @@ table {
 #header .con {
     padding-bottom: 12px;
     padding-top: 12px;
-    padding-left: 250px;
-    padding-right: 250px;
     font-size: 20px;
+    /* box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1016px; */
 }
 
 #header a {
@@ -101,10 +102,11 @@ h1 {
     margin: 0 0 24px
 }
 
-.menu{
-    width: 1019px;
-    margin: 0 auto;
+nav.menu{
 
+    max-width: 1019px;
+    margin: 0 auto;
+    
 }
 #xxx{
 
